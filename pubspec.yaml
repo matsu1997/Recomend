@@ -1,0 +1,75 @@
+name: recomend
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+flutter_native_splash:
+  image: "images/icon.jpg"
+  color: "4DD0E1"
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  intl: ^0.17.0
+  after_layout: ^1.0.7+2
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.3.0
+  firebase_analytics: ^8.1.2
+  firebase_auth: ^2.0.0
+  cloud_firestore: ^2.3.0
+  firebase_storage: ^10.3.3
+  photo_view: ^0.12.0
+  path_provider: ^2.0.1
+  image_picker: ^0.7.4
+  url_launcher: ^6.1.5
+  flutter_email_sender: ^5.1.0
+  in_app_review: ^2.0.4
+  shared_preferences: ^2.0.15
+  #  google_mobile_ads: ^1.3.0
+  flutter_ringtone_player: ^3.2.0
+  share: ^2.0.4
+  flutter_launcher_icons: ^0.9.3
+  app_tracking_transparency: ^2.0.2+4
+  flutter_calendar_week: ^2.1.1
+  syncfusion_flutter_calendar: ^20.2.48
+  time_range_picker: ^2.2.0
+  flutter_slidable: ^2.0.0
+  interval_time_picker: ^1.1.0+4
+  flutter_radar_chart: ^0.2.1
+  radar_chart: ^2.1.0
+  flutter_rating_bar: ^4.0.1
+  flutter_speed_dial: ^6.1.0+1
+adaptive_action_sheet: ^2.0.1
+app_review: ^2.1.1
+flutter_email_sender: ^5.1.0
+admob_flutter: ^1.0.0
+shared_preferences: ^2.0.15
+#google_mobile_ads: ^1.3.0
+flutter_launcher_icons: ^0.9.3
+share: ^2.0.4
+provider: ^6.0.1
+flutter_slidable: ^0.6.0
+how2geeks_flutter_calendar: ^17.4.40-beta
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'lib/assets/icon.PNG'
